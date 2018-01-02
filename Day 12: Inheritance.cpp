@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 class Person{
 	protected:
 		string firstName;
@@ -18,8 +17,7 @@ class Person{
 		void printPerson(){
 			cout<< "Name: "<< lastName << ", "<< firstName <<"\nID: "<< id << "\n"; 
 		}
-	
-};
+	};
 
 class Student :  public Person{
 	private:
