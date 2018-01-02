@@ -22,7 +22,7 @@ class Person{
 class Student :  public Person{
 	private:
 		vector<int> testScores; 
-        int sum=0, subs=0;
+        	int sum=0, subs=0;
 		double avg=0.0;
 	public:
         /*	
@@ -38,7 +38,7 @@ class Student :  public Person{
          Student(string fn,string ln,int id,vector<int> scores):Person(fn,ln,id)
             {
                 this->testScores=scores;
-	            subs=testScores.size();       
+	        subs=testScores.size();       
             }
         /*  
         *   Method Name: Calculate
